@@ -15,6 +15,8 @@
 		FDA169FA1D3A26FA00A51715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA169F81D3A26FA00A51715 /* LaunchScreen.storyboard */; };
 		FDA16A051D3A26FB00A51715 /* TextFieldCustomInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A041D3A26FB00A51715 /* TextFieldCustomInputViewTests.m */; };
 		FDA16A101D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A0F1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m */; };
+		FDA16A231D3A296800A51715 /* CustomColorSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A221D3A296800A51715 /* CustomColorSelectionView.m */; };
+		FDA16A261D3A297D00A51715 /* CustomFontSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A251D3A297D00A51715 /* CustomFontSelectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FDA16A0B1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldCustomInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA16A0F1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCustomInputViewUITests.m; sourceTree = "<group>"; };
 		FDA16A111D3A26FB00A51715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA16A211D3A296800A51715 /* CustomColorSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomColorSelectionView.h; path = Views/CustomColorSelectionView.h; sourceTree = "<group>"; };
+		FDA16A221D3A296800A51715 /* CustomColorSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomColorSelectionView.m; path = Views/CustomColorSelectionView.m; sourceTree = "<group>"; };
+		FDA16A241D3A297D00A51715 /* CustomFontSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomFontSelectionView.h; path = Views/CustomFontSelectionView.h; sourceTree = "<group>"; };
+		FDA16A251D3A297D00A51715 /* CustomFontSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomFontSelectionView.m; path = Views/CustomFontSelectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				FDA169F01D3A26FA00A51715 /* ViewController.h */,
 				FDA169F11D3A26FA00A51715 /* ViewController.m */,
 				FDA169F31D3A26FA00A51715 /* Main.storyboard */,
+				FDA16A1D1D3A292B00A51715 /* Views */,
 				FDA169F61D3A26FA00A51715 /* Assets.xcassets */,
 				FDA169F81D3A26FA00A51715 /* LaunchScreen.storyboard */,
 				FDA169FB1D3A26FA00A51715 /* Info.plist */,
@@ -138,6 +145,17 @@
 				FDA16A111D3A26FB00A51715 /* Info.plist */,
 			);
 			path = TextFieldCustomInputViewUITests;
+			sourceTree = "<group>";
+		};
+		FDA16A1D1D3A292B00A51715 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16A241D3A297D00A51715 /* CustomFontSelectionView.h */,
+				FDA16A251D3A297D00A51715 /* CustomFontSelectionView.m */,
+				FDA16A211D3A296800A51715 /* CustomColorSelectionView.h */,
+				FDA16A221D3A296800A51715 /* CustomColorSelectionView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA16A261D3A297D00A51715 /* CustomFontSelectionView.m in Sources */,
+				FDA16A231D3A296800A51715 /* CustomColorSelectionView.m in Sources */,
 				FDA169F21D3A26FA00A51715 /* ViewController.m in Sources */,
 				FDA169EF1D3A26FA00A51715 /* AppDelegate.m in Sources */,
 				FDA169EC1D3A26FA00A51715 /* main.m in Sources */,
@@ -416,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextFieldCustomInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextFieldCustomInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
