@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA169EC1D3A26FA00A51715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA169EB1D3A26FA00A51715 /* main.m */; };
+		FDA169EF1D3A26FA00A51715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA169EE1D3A26FA00A51715 /* AppDelegate.m */; };
+		FDA169F21D3A26FA00A51715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA169F11D3A26FA00A51715 /* ViewController.m */; };
+		FDA169F51D3A26FA00A51715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA169F31D3A26FA00A51715 /* Main.storyboard */; };
+		FDA169F71D3A26FA00A51715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA169F61D3A26FA00A51715 /* Assets.xcassets */; };
+		FDA169FA1D3A26FA00A51715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA169F81D3A26FA00A51715 /* LaunchScreen.storyboard */; };
+		FDA16A051D3A26FB00A51715 /* TextFieldCustomInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A041D3A26FB00A51715 /* TextFieldCustomInputViewTests.m */; };
+		FDA16A101D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA16A0F1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA16A011D3A26FB00A51715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA169DF1D3A26FA00A51715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA169E61D3A26FA00A51715;
+			remoteInfo = TextFieldCustomInputView;
+		};
+		FDA16A0C1D3A26FB00A51715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA169DF1D3A26FA00A51715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA169E61D3A26FA00A51715;
+			remoteInfo = TextFieldCustomInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA169E71D3A26FA00A51715 /* TextFieldCustomInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldCustomInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA169EB1D3A26FA00A51715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA169ED1D3A26FA00A51715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA169EE1D3A26FA00A51715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA169F01D3A26FA00A51715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA169F11D3A26FA00A51715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA169F41D3A26FA00A51715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA169F61D3A26FA00A51715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA169F91D3A26FA00A51715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA169FB1D3A26FA00A51715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA16A001D3A26FB00A51715 /* TextFieldCustomInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldCustomInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA16A041D3A26FB00A51715 /* TextFieldCustomInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCustomInputViewTests.m; sourceTree = "<group>"; };
+		FDA16A061D3A26FB00A51715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA16A0B1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldCustomInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA16A0F1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCustomInputViewUITests.m; sourceTree = "<group>"; };
+		FDA16A111D3A26FB00A51715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA169E41D3A26FA00A51715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA169FD1D3A26FB00A51715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA16A081D3A26FB00A51715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA169DE1D3A26FA00A51715 = {
+			isa = PBXGroup;
+			children = (
+				FDA169E91D3A26FA00A51715 /* TextFieldCustomInputView */,
+				FDA16A031D3A26FB00A51715 /* TextFieldCustomInputViewTests */,
+				FDA16A0E1D3A26FB00A51715 /* TextFieldCustomInputViewUITests */,
+				FDA169E81D3A26FA00A51715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA169E81D3A26FA00A51715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA169E71D3A26FA00A51715 /* TextFieldCustomInputView.app */,
+				FDA16A001D3A26FB00A51715 /* TextFieldCustomInputViewTests.xctest */,
+				FDA16A0B1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA169E91D3A26FA00A51715 /* TextFieldCustomInputView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA169ED1D3A26FA00A51715 /* AppDelegate.h */,
+				FDA169EE1D3A26FA00A51715 /* AppDelegate.m */,
+				FDA169F01D3A26FA00A51715 /* ViewController.h */,
+				FDA169F11D3A26FA00A51715 /* ViewController.m */,
+				FDA169F31D3A26FA00A51715 /* Main.storyboard */,
+				FDA169F61D3A26FA00A51715 /* Assets.xcassets */,
+				FDA169F81D3A26FA00A51715 /* LaunchScreen.storyboard */,
+				FDA169FB1D3A26FA00A51715 /* Info.plist */,
+				FDA169EA1D3A26FA00A51715 /* Supporting Files */,
+			);
+			path = TextFieldCustomInputView;
+			sourceTree = "<group>";
+		};
+		FDA169EA1D3A26FA00A51715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA169EB1D3A26FA00A51715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA16A031D3A26FB00A51715 /* TextFieldCustomInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16A041D3A26FB00A51715 /* TextFieldCustomInputViewTests.m */,
+				FDA16A061D3A26FB00A51715 /* Info.plist */,
+			);
+			path = TextFieldCustomInputViewTests;
+			sourceTree = "<group>";
+		};
+		FDA16A0E1D3A26FB00A51715 /* TextFieldCustomInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16A0F1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m */,
+				FDA16A111D3A26FB00A51715 /* Info.plist */,
+			);
+			path = TextFieldCustomInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA169E61D3A26FA00A51715 /* TextFieldCustomInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA16A141D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputView" */;
+			buildPhases = (
+				FDA169E31D3A26FA00A51715 /* Sources */,
+				FDA169E41D3A26FA00A51715 /* Frameworks */,
+				FDA169E51D3A26FA00A51715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldCustomInputView;
+			productName = TextFieldCustomInputView;
+			productReference = FDA169E71D3A26FA00A51715 /* TextFieldCustomInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA169FF1D3A26FB00A51715 /* TextFieldCustomInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA16A171D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputViewTests" */;
+			buildPhases = (
+				FDA169FC1D3A26FB00A51715 /* Sources */,
+				FDA169FD1D3A26FB00A51715 /* Frameworks */,
+				FDA169FE1D3A26FB00A51715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA16A021D3A26FB00A51715 /* PBXTargetDependency */,
+			);
+			name = TextFieldCustomInputViewTests;
+			productName = TextFieldCustomInputViewTests;
+			productReference = FDA16A001D3A26FB00A51715 /* TextFieldCustomInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA16A0A1D3A26FB00A51715 /* TextFieldCustomInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA16A1A1D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputViewUITests" */;
+			buildPhases = (
+				FDA16A071D3A26FB00A51715 /* Sources */,
+				FDA16A081D3A26FB00A51715 /* Frameworks */,
+				FDA16A091D3A26FB00A51715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA16A0D1D3A26FB00A51715 /* PBXTargetDependency */,
+			);
+			name = TextFieldCustomInputViewUITests;
+			productName = TextFieldCustomInputViewUITests;
+			productReference = FDA16A0B1D3A26FB00A51715 /* TextFieldCustomInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA169DF1D3A26FA00A51715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Headerlabs;
+				TargetAttributes = {
+					FDA169E61D3A26FA00A51715 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FDA169FF1D3A26FB00A51715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FDA169E61D3A26FA00A51715;
+					};
+					FDA16A0A1D3A26FB00A51715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FDA169E61D3A26FA00A51715;
+					};
+				};
+			};
+			buildConfigurationList = FDA169E21D3A26FA00A51715 /* Build configuration list for PBXProject "TextFieldCustomInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA169DE1D3A26FA00A51715;
+			productRefGroup = FDA169E81D3A26FA00A51715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA169E61D3A26FA00A51715 /* TextFieldCustomInputView */,
+				FDA169FF1D3A26FB00A51715 /* TextFieldCustomInputViewTests */,
+				FDA16A0A1D3A26FB00A51715 /* TextFieldCustomInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA169E51D3A26FA00A51715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA169FA1D3A26FA00A51715 /* LaunchScreen.storyboard in Resources */,
+				FDA169F71D3A26FA00A51715 /* Assets.xcassets in Resources */,
+				FDA169F51D3A26FA00A51715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA169FE1D3A26FB00A51715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA16A091D3A26FB00A51715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA169E31D3A26FA00A51715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA169F21D3A26FA00A51715 /* ViewController.m in Sources */,
+				FDA169EF1D3A26FA00A51715 /* AppDelegate.m in Sources */,
+				FDA169EC1D3A26FA00A51715 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA169FC1D3A26FB00A51715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA16A051D3A26FB00A51715 /* TextFieldCustomInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA16A071D3A26FB00A51715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA16A101D3A26FB00A51715 /* TextFieldCustomInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA16A021D3A26FB00A51715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA169E61D3A26FA00A51715 /* TextFieldCustomInputView */;
+			targetProxy = FDA16A011D3A26FB00A51715 /* PBXContainerItemProxy */;
+		};
+		FDA16A0D1D3A26FB00A51715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA169E61D3A26FA00A51715 /* TextFieldCustomInputView */;
+			targetProxy = FDA16A0C1D3A26FB00A51715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA169F31D3A26FA00A51715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA169F41D3A26FA00A51715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA169F81D3A26FA00A51715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA169F91D3A26FA00A51715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA16A121D3A26FB00A51715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA16A131D3A26FB00A51715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA16A151D3A26FB00A51715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldCustomInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA16A161D3A26FB00A51715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldCustomInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA16A181D3A26FB00A51715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldCustomInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldCustomInputView.app/TextFieldCustomInputView";
+			};
+			name = Debug;
+		};
+		FDA16A191D3A26FB00A51715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldCustomInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldCustomInputView.app/TextFieldCustomInputView";
+			};
+			name = Release;
+		};
+		FDA16A1B1D3A26FB00A51715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldCustomInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldCustomInputView;
+			};
+			name = Debug;
+		};
+		FDA16A1C1D3A26FB00A51715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldCustomInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs.TextFieldCustomInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldCustomInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA169E21D3A26FA00A51715 /* Build configuration list for PBXProject "TextFieldCustomInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA16A121D3A26FB00A51715 /* Debug */,
+				FDA16A131D3A26FB00A51715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA16A141D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA16A151D3A26FB00A51715 /* Debug */,
+				FDA16A161D3A26FB00A51715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA16A171D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA16A181D3A26FB00A51715 /* Debug */,
+				FDA16A191D3A26FB00A51715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA16A1A1D3A26FB00A51715 /* Build configuration list for PBXNativeTarget "TextFieldCustomInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA16A1B1D3A26FB00A51715 /* Debug */,
+				FDA16A1C1D3A26FB00A51715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA169DF1D3A26FA00A51715 /* Project object */;
+}
